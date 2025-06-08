@@ -7,9 +7,10 @@ function App() {
 
   return (
     <>
-     
+     <Header />
+     <Meme />
     </>
-  )
+  );
 }
 
 export default App

@@ -8,4 +8,4 @@ export default function Header() {
             <h4 className="header--project">React Course Project</h4>
         </header>
     )
-}
+};
