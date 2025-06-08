@@ -2,10 +2,10 @@ import React from 'react';
 
 export default function Header() {
     return (
-        <header>
-            <img src="./images/Troll Face PNG.png"/>
-            <h2>Header component</h2>
-            <h4>React Course Project</h4>
+        <header className="header">
+            <img src="./images/Troll-Face.png" className="header--image"/>
+            <h2 className="header--title">Header component</h2>
+            <h4 className="header--project">React Course Project</h4>
         </header>
     )
 }
